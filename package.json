@@ -1,0 +1,30 @@
+{
+  "name": "tooling-section-excercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VUFLOW/tooling-section-excercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VUFLOW/tooling-section-excercise/issues"
+  },
+  "homepage": "https://github.com/VUFLOW/tooling-section-excercise#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.10.0"
+  },
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.213"
+  }
+}
